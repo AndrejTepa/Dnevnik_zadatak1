@@ -203,6 +203,7 @@
             this.button5.TabIndex = 14;
             this.button5.Text = "obrisi";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -212,6 +213,7 @@
             this.button6.TabIndex = 15;
             this.button6.Text = "izmeni";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -221,6 +223,7 @@
             this.button7.TabIndex = 16;
             this.button7.Text = "dodaj";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 
